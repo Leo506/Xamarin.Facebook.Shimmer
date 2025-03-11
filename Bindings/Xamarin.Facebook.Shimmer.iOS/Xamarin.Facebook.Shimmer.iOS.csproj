@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <NativeReference Include="..\Frameworks\Shimmer.framework">
+    <NativeReference Include="..\Frameworks\Shimmer.xcframework">
       <Kind>Framework</Kind>
       <ForceLoad>True</ForceLoad>
       <LinkerFlags>-ObjC</LinkerFlags>
