@@ -9,6 +9,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nugets", "Nugets", "{6FE18E1E-12CF-49EE-9230-1D96FED10F18}"
 	ProjectSection(SolutionItems) = preProject
 		Nugets\Xamarin.Facebook.Shimmer.nuspec = Nugets\Xamarin.Facebook.Shimmer.nuspec
+		Nugets\Xamarin.Facebook.Shimmer.iOS.nuspec = Nugets\Xamarin.Facebook.Shimmer.iOS.nuspec
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Facebook.Shimmer.Android", "Bindings\Xamarin.Facebook.Shimmer.Android\Xamarin.Facebook.Shimmer.Android.csproj", "{390FF78F-85DD-4DC3-A4B4-2C3E3F68C028}"

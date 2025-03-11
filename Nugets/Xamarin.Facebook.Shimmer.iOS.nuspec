@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Facebook.Shimmer.iOS</id>
+    <version>1.0.5</version>
+    <title>Xamarin.Facebook.Shimmer.iOS</title>
+    <authors>Leo506</authors>
+    <owners>Leo506</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>icon.png</icon>
+    <license type="file">LICENSE</license>
+    <projectUrl>https://github.com/Leo506/Xamarin.Facebook.Shimmer</projectUrl>
+    <description>Facebook Shimmer SDK for iOS</description>
+    <summary>Facebook Shimmer SDK for iOS</summary>
+    <copyright>Leo506 © 2025</copyright>
+    <language>en-US</language>
+    <tags>xamarin, maui, .net, ios, facebook, shimmer, animations, placeholder, loading</tags>
+    <readme>README.md</readme>
+    <repository type="git" url="https://github.com/Leo506/Xamarin.Facebook.Shimmer" />
+    <developmentDependency>false</developmentDependency>
+    <dependencies>
+      <group targetFramework="net8.0-ios18.0">
+        <dependency id="Xamarin.Build.Download" version="0.11.4" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- NuGet reference assemblies -->
+    <file src="../LICENSE" target="LICENSE" />
+    <file src="../icon.png" target="icon.png" />
+    <file src="../README.md" target="README.md" />
+
+    <!-- iOS reference assemblies -->
+    <file src="../Bindings/Xamarin.Facebook.Shimmer.iOS/bin/Release/net8.0-ios/Xamarin.Facebook.Shimmer.iOS.dll" target="lib/net8.0-ios18.0" />
+    <file src="../Bindings/Xamarin.Facebook.Shimmer.iOS/bin/Release/net8.0-ios/Xamarin.Facebook.Shimmer.iOS.xml" target="lib/net8.0-ios18.0" />
+    <file src="../Bindings/Xamarin.Facebook.Shimmer.iOS/bin/Release/net8.0-ios/Xamarin.Facebook.Shimmer.iOS.resources/" target="lib/net8.0-ios18.0/Xamarin.Facebook.Shimmer.iOS.resources" />
+
+    </files>
+</package>
